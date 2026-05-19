@@ -1,4 +1,4 @@
-name: hello Cloud Engineer
+name: NEW Cloud Engineer
 on: workflow_dispatch
 jobs:
   developer:
@@ -12,11 +12,13 @@ jobs:
           echo this is second line.
   testers:
     runs-on:  ubuntu-latest
+    needs: developer
     steps: 
       - name: Another one line description
         run: echo Testing!
   CloudEngineer:
     runs-on: ubuntu-latest
+    needs: testers
     steps:
       - name: Learn github
         run: |
