@@ -10,3 +10,10 @@ jobs:
         run: |
           echo this is first line,
           echo this is second line.
+jobs:
+  testers:
+    runs-on:  ubuntu-latest
+    steps: 
+      - name: Another one line description
+        run: echo Testing!
+      
