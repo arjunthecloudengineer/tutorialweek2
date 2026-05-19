@@ -10,7 +10,6 @@ jobs:
         run: |
           echo this is first line,
           echo this is second line.
-jobs:
   testers:
     runs-on:  ubuntu-latest
     steps: 
