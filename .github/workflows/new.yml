@@ -14,9 +14,4 @@ jobs:
     runs-on:  ubuntu-latest
     steps: 
       - name: Another job is tester line description
-        run: echo Testing! Testing!!!
-  Deplouer:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Dont Walk deploy with:
-        run: echo like said it has now been deployed
+        run: echo Testing! Testing!!  
