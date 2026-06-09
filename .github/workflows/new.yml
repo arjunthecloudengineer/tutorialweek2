@@ -15,3 +15,9 @@ jobs:
     steps: 
       - name: Another job is tester line description
         run: echo Testing! Testing!!  
+  Deploying:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployer is ready to deploy it.
+        run: echo I am deploying now.
+    
