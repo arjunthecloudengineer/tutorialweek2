@@ -1,4 +1,4 @@
-name: hello world 3
+name: Discloure day
 on: workflow_dispatch
 jobs:
   Developer:
