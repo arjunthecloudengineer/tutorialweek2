@@ -11,7 +11,7 @@ jobs:
           echo this is Developer first line,
           echo this is  Developer second line.
   testers:
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Another job is tester line description
         run: echo Testing! Testing!!  
