@@ -1,3 +1,2 @@
-# Tutorialweek2
-week2
-week3
+#this is for the tutorial
+Week 2 is the correct description
